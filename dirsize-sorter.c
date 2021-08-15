@@ -214,7 +214,7 @@ int main(int argc, char *argv[]){
       dir = ".";
 
    /* A small indicator that the program is in use (the scanning may take a while if the user has a lot of files to scan) */
-   printf("Scanning %s...\n",dir);
+   printf("Scanning '%s'...\n",dir);
    scanDir(dir);
 
    printf("Sorting %i files...\n", storedFiles);
